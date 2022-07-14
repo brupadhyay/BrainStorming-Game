@@ -31,7 +31,7 @@ function checkAnswer(currentLevel) {
         },200);
         $("#level-title").text("Game Over, press any where to Restart");
         setTimeout( function (){
-            $("body").click(() => {
+            $(document).click(() => {
                 window.location.reload();
             });
         },500);
@@ -41,7 +41,7 @@ function checkAnswer(currentLevel) {
 
 
 
-$("body").click(function () {
+$(document").click(function () {
     if (!started) {
 
         //3. The h1 title starts out saying "Press A Key to Start", when the game has started, change this to say "Level 0".
