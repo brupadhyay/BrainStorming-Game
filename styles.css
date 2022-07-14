@@ -8,13 +8,14 @@ body {
   font-size: 3rem;
   margin:  5%;
   color: #FEF2BF;
+  line-height: 67.5px;
+  margin-top: 20px;
 }
 
-.container {
+.container{
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
@@ -51,7 +52,4 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
-#level-title{
-  line-height: 67.5px;
-  margin-top: 20px;
-}
+
